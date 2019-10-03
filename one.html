@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.foodgrains {
+  -webkit-column-count: 3; 
+  -moz-column-count: 3; 
+  column-count: 3;
+
+  -webkit-column-gap: 450x; 
+  -moz-column-gap: 45px; 
+  column-gap: 40px;
+
+  -webkit-column-rule: 4px double #	#FFD700; 
+  -moz-column-rule: 4px double #FFA500; 
+  column-rule: 4px double #FFA500;
+  border:1px solid black;
+  position:relative;
+  left:50px;
+}
+body{
+	background:white;;
+}
+.wrapper{
+	background:white;
+	max-width:960px;
+	margin :0 auto;
+	padding:20px;
+}
+.wrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.service h2,.service p{
+	color:#999;
+	margin:10px 0;
+	text-align:center;
+}
+.service{
+	float:left;
+	background:#eee;
+	width:29%;
+	margin:1%;
+	padding:1%;
+	position:relative;
+	height:100px;
+}
+.service:nth-child(1){
+top:5px;
+}
+.service:nth-child(2){
+top:15px;
+}
+.service:nth-child(3){
+top:25px;
+}
+
+.service:after{
+	content"";
+}
+.content{
+	padding:10px;
+	background:#ccc;
+	clear:left;
+	margin-top:50px;
+}
+section,aside{
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%;
+	background:#ccc;
+}
+.columns:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div id="Poster">
+<img src="rice1.jpg" width="95%">
+<h2> Nutrition Food</h2>
+</div>
+
+
+<div class="blue"></div>
+<div class="red"></div>
+<div class="green"></div>
+<div class="services">
+<div class="service">
+<h2>service 1</h2>
+<p> service 1</p>
+</div>
+<div class="service">
+<h2>service 1</h2>
+<p> service 2</p>
+</div>
+<div class="service">
+<h2>service 1</h2>
+<p> service 3</p>
+</div>
+</div>
+<h1>Food Grains </h1>
+<p>A grain is a small, hard, dry seed, with or without an attached hull or fruit layer, harvested for human or animal consumption.</p>
+
+<div class="foodgrains">
+Grains and cereal are synonymous with caryopses, the fruits of the grass family. In agronomy and commerce, seeds or fruits from other plant families are called grains if they resemble caryopses. For example, amaranth is sold as "grain amaranth", and amaranth products may be described as "whole grains". The pre-Hispanic civilizations of the Andes had grain-based food systems but, at the higher elevations, none of the grains was a cereal. All three grains native to the Andes (kaniwa, kiwicha, and quinoa) are broad-leafed plants rather than grasses such as corn, rice, and wheat.
+</div>
+
+<p><strong>Note:</strong> The food grain enrichment is not supported in Internet Explorer 9 and earlier versions.</p>
+<div class="columns">
+<div style="clear:both;"></div>
+<section>
+<h2>this is column 1</h2>
+<p>
+Rice, a monocot, is normally grown as an annual plant, although in tropical areas it can survive as a perennial and can produce a ratoon crop for up to 30 years.[3] Rice cultivation is well-suited to countries and regions with low labor costs and high rainfall, as it is labor-intensive to cultivate and requires ample water. However, rice can be grown practically anywhere, even on a steep hill or mountain area with the use of water-controlling terrace systems. Although its parent species are native to Asia and certain parts of Africa, centuries of trade and exportation have made it commonplace in many cultures worldwide.Rice is the staple food of over half the world's population. It is the predominant dietary energy source for 17 countries in Asia and the Pacific, 9 countries in North and South America and 8 countries in Africa. Rice provides 20% of the world's dietary energy supply, while wheat supplies 19% and maize (corn) 5%.[15]
+
+Cooked, unenriched, white, long-grained rice is composed of 68% water, 28% carbohydrates, 3% protein, and negligible fat (table). In a 100 gram serving, it provides 130 calories and contains no micronutrients in significant amounts, with all less than 10% of the Daily Value (DV) (table). Cooked, white, short-grained rice also provides 130 calories and contains moderate amounts of B vitamins, iron, and manganese (10–17% DV) per 100 gram amount (table).
+
+A detailed analysis of nutrient content of rice suggests that the nutrition value of rice varies based on a number of factors. 
+
+
+</p>
+
+</section>
+<aside>
+<h2>this is column 2</h2>
+<p>The traditional method for cultivating rice is flooding the fields while, or after, setting the young seedlings. This simple method requires sound planning and servicing of the water damming and channeling, but reduces the growth of less robust weed and pest plants that have no submerged growth state, and deters vermin. While flooding is not mandatory for the cultivation of rice, all other methods of irrigation require higher effort in weed and pest control during growth periods and a different approach for fertilizing the soil.
+
+</p>
+<img src="rice.jpg" width="100%">
+</aside>
+</div>
+
+</body>
+</html>
